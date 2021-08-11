@@ -15,19 +15,22 @@ class GUI(Frame):
     def click(self):
 
         snack = ['Manna Corn Dogs', 'Smokes Poutinerie', 'Murphys Ice Cream',
-        'I <3 Boba', 'Real Fruit', 'Gong Cha', 'Starbucks', 'Tims', 'McDonalds']
+        'I <3 Boba', 'Real Fruit', 'Gong Cha', 'Starbucks', 'Tims', 'McDonalds',
+        'Sugar Marmalade', 'Supermoon', 'Cocos', 'Baskin Robbins', 'Chatime']
         fastfood = ['McDonalds', 'Philthy Phillys', 'Manousha', 'H Mart',
         'Nations Kitchen', 'Burger Factory', 'Alf Hana', 'Ricks Good Eats',
         'Ice Q', 'Little Caesars', 'Chipotle', 'Wendys', 'Five Guys', 'KFC',
         'Taco Bell', 'Costco', 'IKEA', 'Pizza Nova', 'Popeyes', 'Loblaws',
-        'Fortune Dragon', 'Pizza Pizza', 'Panagio Breakfast', 'Dennys',
-        'Dominoes', 'Bourbon St Grill', 'Firehouse Subs', 'Subway',
-        'Jimmy The Greek', 'Harveys', ]
-        restaurant = ['Mihito Poke Bowls', 'Poke Guys', 'Jinzakaya',
-        'Younge St Warehouse', 'Kelseys', 'ManDooHyang', 'K Pocha',
+        'Fortune Dragon', 'Pizza Pizza', 'Panagio Breakfast', 'Dominoes',
+        'Bourbon St Grill', 'Firehouse Subs', 'Dixie Food Court', 'Cora',
+        'Jimmy The Greek', 'Harveys', 'Subway', 'Mary Browns', 'Sushi Park',
+        'Mississauga Marketplace F&C', 'Davs HotSpot', 'La Carnita']
+        restaurant = ['Mihito Poke Bowls', 'Poke Guys', 'Jinzakaya', 'Pho',
+        'Younge St Warehouse', 'Kelseys', 'ManDooHyang', 'K Pocha', 'Sikgaek',
         'Bubble Republic', 'Katsuya', 'Nandos', 'Song Cook', 'Kamen Ramen',
         'Kinton Ramen', 'Social Eatery', 'Owl of Minerva', 'Chucks Roadhouse',
-        'AYCE Sushi', 'Pho', 'Goodfellas', 'El Mariachi', 'Swiss Chalet']
+        '168 Sushi', 'Goodfellas', 'El Mariachi', 'Swiss Chalet', 'Iron Chef',
+        'Turtle Jacks', 'Wind Sushi', 'Heart Sushi', 'Buk Chang Dong']
 
         all = ("Snack: " + snack[randrange(len(snack))] +
         "\nFast Food: " + fastfood[randrange(len(fastfood))] +
