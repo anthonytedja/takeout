@@ -21,7 +21,8 @@ class GUI(Frame):
         'Ice Q', 'Little Caesars', 'Chipotle', 'Wendys', 'Five Guys', 'KFC',
         'Taco Bell', 'Costco', 'IKEA', 'Pizza Nova', 'Popeyes', 'Loblaws',
         'Fortune Dragon', 'Pizza Pizza', 'Panagio Breakfast', 'Dennys',
-        'Dominoes', 'Bourbon St Grill', 'Firehouse Subs', ]
+        'Dominoes', 'Bourbon St Grill', 'Firehouse Subs', 'Subway',
+        'Jimmy The Greek', 'Harveys', ]
         restaurant = ['Mihito Poke Bowls', 'Poke Guys', 'Jinzakaya',
         'Younge St Warehouse', 'Kelseys', 'ManDooHyang', 'K Pocha',
         'Bubble Republic', 'Katsuya', 'Nandos', 'Song Cook', 'Kamen Ramen',
