@@ -55,7 +55,7 @@ h1 {
 
 h5 {
     font-family: var(--fonts-style-x);
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 p {
@@ -112,7 +112,7 @@ section.full {
 /* ------ */
 
 button {
-    float: left;
+    float: none;
     width: 200px;
     height: 65px;
     margin: 5px;
@@ -139,7 +139,7 @@ button:active {
 /* ------------- */
 
 main {
-    background-color: hsl(238deg, 84.7%, 64.1%);
+    background-color: #FFF;
     transition: 500ms;
 }
 

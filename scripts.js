@@ -5,6 +5,7 @@ var hex = document.getElementById("hex");
 var snack = document.getElementById("snack");
 var fastfood = document.getElementById("fastfood");
 var restaurant = document.getElementById("restaurant");
+var button = document.getElementById("order");
 
 const snacklist = ["ChungChun Corn Dogs", "Smokes Poutinerie", "Murphys Ice Cream",
     "I <3 Boba", "Real Fruit", "Gong Cha", "Starbucks", "Tims", "McDonalds",
@@ -33,7 +34,7 @@ function generateOrder() {
     snack.textContent = "SNACK : " + snacklist[Math.floor(Math.random() * snacklist.length)].toUpperCase();
     fastfood.textContent = "FAST FOOD : " + fastfoodlist[Math.floor(Math.random() * fastfoodlist.length)].toUpperCase();
     restaurant.textContent = "RESTAURANT : " + restaurantlist[Math.floor(Math.random() * restaurantlist.length)].toUpperCase();
-
+    button.textContent = "ORDER NUMBER";
     changeBgColor();
 }
 
