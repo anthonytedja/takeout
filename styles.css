@@ -152,7 +152,7 @@ main {
 
 h1.hex-value {
     letter-spacing: .25em;
-    font-size: 6em;
+    font-size: 5.5em;
     font-weight: var(--semi-bold);
 }
 
@@ -176,8 +176,8 @@ button:active {
 }
 
 
-/* Display this style when screen-width is lower than 768px */
-@media only screen and (max-width: 768px) {
+/* Display this style when screen-width is lower than 1440px */
+@media only screen and (max-width: 1440px) {
 
     h1.hex-value {
         letter-spacing: .25em;
