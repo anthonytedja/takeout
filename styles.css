@@ -5,7 +5,7 @@
 
 :root {
     /* Font Color */
-    --theme-color: #00ffbf;
+    --theme-color: #ccff00;
     --theme-color-light: #68ffd9;
     --fonts-color: #003223;
     --light-theme: #f7fffd;
@@ -113,8 +113,8 @@ section.full {
 
 button {
     float: left;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 65px;
     margin: 5px;
     border: none;
     border-radius: 8px;
