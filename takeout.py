@@ -16,7 +16,8 @@ class GUI(Frame):
 
         snack = ['Manna Corn Dogs', 'Smokes Poutinerie', 'Murphys Ice Cream',
         'I <3 Boba', 'Real Fruit', 'Gong Cha', 'Starbucks', 'Tims', 'McDonalds',
-        'Sugar Marmalade', 'Supermoon', 'Cocos', 'Baskin Robbins', 'Chatime']
+        'Sugar Marmalade', 'Supermoon', 'Cocos', 'Baskin Robbins', 'Chatime',
+        'Hazukido', 'Juicy Dumplings', '']
         fastfood = ['McDonalds', 'Philthy Phillys', 'Manousha', 'H Mart',
         'Nations Kitchen', 'Burger Factory', 'Alf Hana', 'Ricks Good Eats',
         'Ice Q', 'Little Caesars', 'Chipotle', 'Wendys', 'Five Guys', 'KFC',
@@ -24,13 +25,15 @@ class GUI(Frame):
         'Fortune Dragon', 'Pizza Pizza', 'Panagio Breakfast', 'Dominoes',
         'Bourbon St Grill', 'Firehouse Subs', 'Dixie Food Court', 'Cora',
         'Jimmy The Greek', 'Harveys', 'Subway', 'Mary Browns', 'Sushi Park',
-        'Mississauga Marketplace F&C', 'Davs HotSpot', 'La Carnita']
+        'Mississauga Marketplace F&C', 'Davs HotSpot', 'La Carnita',
+        'Birria Catrina']
         restaurant = ['Mihito Poke Bowls', 'Poke Guys', 'Jinzakaya', 'Pho',
         'Younge St Warehouse', 'Kelseys', 'ManDooHyang', 'K Pocha', 'Sikgaek',
         'Bubble Republic', 'Katsuya', 'Nandos', 'Song Cook', 'Kamen Ramen',
         'Kinton Ramen', 'Social Eatery', 'Owl of Minerva', 'Chucks Roadhouse',
         '168 Sushi', 'Goodfellas', 'El Mariachi', 'Swiss Chalet', 'Iron Chef',
-        'Turtle Jacks', 'Wind Sushi', 'Heart Sushi', 'Buk Chang Dong']
+        'Turtle Jacks', 'Wind Sushi', 'Heart Sushi', 'Buk Chang Dong',
+        'Chicken in the Kitchen']
 
         all = ("Snack: " + snack[randrange(len(snack))] +
         "\nFast Food: " + fastfood[randrange(len(fastfood))] +
@@ -42,7 +45,6 @@ root = Tk()
 
 windowWidth = root.winfo_reqwidth()
 windowHeight = root.winfo_reqheight()
-print("Width",windowWidth,"Height",windowHeight)
  
 positionRight = int(root.winfo_screenwidth()/4 - windowWidth/10)
 positionDown = int(root.winfo_screenheight()/4 - windowHeight/4)

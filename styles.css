@@ -1,0 +1,202 @@
+/* ------------- */
+/* Basic Setting */
+/* ------------- */
+
+
+:root {
+    /* Font Color */
+    --theme-color: #00ffbf;
+    --theme-color-light: #68ffd9;
+    --fonts-color: #003223;
+    --light-theme: #f7fffd;
+    
+
+    /* Font Family */
+    --fonts-style-x: 'bc-alphapipe', sans-serif;
+    --fonts-style-y: 'bc-alphapipe', sans-serif;
+
+    /* Font Weight */
+    --thin: 200;
+    --light: 300;
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+
+}
+
+html,
+body {
+    box-sizing: border-box;
+    max-width: 2560px;
+    margin: auto;
+    padding: 0;
+    font-family: var(--fonts-style-y);
+    font-weight: var(--light);
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    color: var(--fonts-color);
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: var(--fonts-style-x);
+    font-size: 4.5em;
+}
+
+h5 {
+    font-family: var(--fonts-style-x);
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1em;
+}
+
+button {
+    appearance: none;
+    background: transparent;
+}
+
+button:focus {
+    outline: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input, button, select, textarea {
+    font-family: var(--fonts-style-y);
+    font-weight: var(--light);
+    font-style: normal;
+    font-size: 1em;
+}
+
+::selection {
+    color: #fff;
+    background-color: var(--theme-color);
+}
+
+
+/* ---------- */
+/* Main Frame */
+/* ---------- */
+
+main {
+    position: relative;
+    width: inherit;
+    background-color: #f7fffd;
+}
+
+section.full {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    min-height: max(568px, 100vh);
+    margin: auto;
+}
+
+
+/* ------ */
+/* UI Kit */
+/* ------ */
+
+button {
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: var(--semi-bold);
+    color: var(--fonts-color);
+    background-color: var(--theme-color);
+    transition: 300ms;
+}
+
+button:hover {
+    background-color: var(--theme-color-light);
+}
+
+button:active {
+    background-color: var(--light-theme);
+}
+
+
+/* ------------- */
+/* For Project 2 */
+/* ------------- */
+
+main {
+    background-color: hsl(238deg, 84.7%, 64.1%);
+    transition: 500ms;
+}
+
+.main-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: hsl(1deg, 0%, 20%);
+}
+
+.main-content-colorcode {
+    position: relative;
+    clear: left;
+    top: 50px;
+}
+
+h1.hex-value {
+    letter-spacing: .25em;
+    font-size: 7.5em;
+    font-weight: var(--semi-bold);
+}
+
+h5 {
+    letter-spacing: .125em;
+}
+
+button {
+    margin: 0;
+    color: hsl(1deg, 0%, 100%);
+    background-color: hsl(1deg, 0%, 20%);
+}
+
+button:hover {
+    background-color: hsl(1deg, 0%, 33%);
+}
+
+button:active {
+    color: hsl(1deg, 0%, 20%);
+    background-color: hsl(1deg, 0%, 100%);
+}
+
+
+/* Display this style when screen-width is lower than 768px */
+@media only screen and (max-width: 768px) {
+
+    h1.hex-value {
+        letter-spacing: .25em;
+        font-size: 2.5em;
+        font-weight: var(--semi-bold);
+    }
+
+    .main-content {
+        text-align: center;
+    }
+
+    button {
+        float: none;
+    }
+
+}
