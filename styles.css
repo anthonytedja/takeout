@@ -187,7 +187,7 @@ button:active {
 
     h1.hex-value {
         letter-spacing: .25em;
-        font-size: 2.5em;
+        font-size: 3em;
         font-weight: var(--semi-bold);
     }
 
