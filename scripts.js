@@ -19,7 +19,7 @@ const fastfoodlist = ["McDonalds", "Philthy Phillys", "Manousha", "H Mart",
     "Fortune Dragon", "Pizza Pizza", "Panagio Breakfast", "Dominoes",
     "Bourbon St Grill", "Firehouse Subs", "Dixie Food Court", "Cora",
     "Jimmy The Greek", "Harveys", "Subway", "Mary Browns", "Sushi Park",
-    "Mississauga Marketplace F&C", "Davs HotSpot", "La Carnita",
+    "Marketplace F&C", "Davs HotSpot", "La Carnita",
     "Birria Catrina"];
 
 const restaurantlist = ["Mihito Poke Bowls", "Poke Guys", "Jinzakaya", "Pho",
