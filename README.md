@@ -1,5 +1,7 @@
 # takeout
 
-takout is a python based applet that randomly generates restaurants at different price ranges.
+takout is an applet that randomly generates restaurants at different price ranges.
 
-[![Usage](usage.jpg)](https://replit.com/@anthonytedja/takeoutpy#main.py)
+## Preview
+
+[![Website Preview](assets/preview.jpg)](https://anthonytedja.github.io/takeout/)
