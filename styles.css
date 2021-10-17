@@ -43,9 +43,25 @@ body {
     box-sizing: inherit;
 }
 
-
 a {
     text-decoration: none;
+    color:hsl(1deg, 0%, 20%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: 25px;
+}
+
+a:hover {
+    opacity: 0.3;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: 50px;
 }
 
 h1 {
@@ -117,7 +133,7 @@ button {
     height: 75px;
     margin: 5px;
     border: none;
-    border-radius: 8px;
+    border-radius: 15px;
     font-size: 1.5em;
     font-weight: var(--semi-bold);
     color: var(--fonts-color);
@@ -172,7 +188,7 @@ button {
 }
 
 button:hover {
-    background-color: hsl(1deg, 0%, 40%);
+    background-color: hsl(1deg, 0%, 33%);
 }
 
 button:active {
