@@ -42,11 +42,9 @@ function generateOrder() {
 // Change The Background Color Base On The Random Color Code
 function changeBgColor() {
 
-    var hexX = genRandom();
-    var hexY = genRandom();
-    var hexZ = genRandom();
+    const three = shuffle([(Math.floor(Math.random() * 66) + 190).toString(16).padStart(2, 0), "FF", "BF"]);
 
-    var hexValue = hexX + hexY + hexZ;
+    var hexValue = three[0] + three[1] + three[2];
     var hexCode = hexValue.toUpperCase();
 
     hex.innerHTML = "#" + hexCode;
@@ -54,40 +52,22 @@ function changeBgColor() {
     // Result Displaying
     main[0].style.backgroundColor = "#" + hexValue;
 
-    var rgbX = parseInt(hexX, 16);
-    var rgbY = parseInt(hexX, 16);
-    var rgbZ = parseInt(hexX, 16);
-
-    var rgbR = rgbX /= 255;
-    var rgbG = rgbY /= 255;
-    var rgbB = rgbZ /= 255;
-
-    var rgbMax = Math.max(rgbR, rgbG, rgbB); // Maximum Value Of RGB
-    var rgbMin = Math.min(rgbR, rgbG, rgbB); // Minimum Value Of RGB
-
-    var lightness = Math.round(((rgbMin + rgbMax) / 2) * 100);
-
-    changeFontColor(lightness);
-
 }
 
-// Random Generate The Number From 0 - 256
-function genRandom() {
-    var randomNum = Math.floor(Math.random() * 256).toString(16).padStart(2, 0);
-
-    return randomNum;
-}
-
-// Change The Font Color Base on The Nightness of The Background
-function changeFontColor(lightness){
-    
-    this.lightness = lightness;
-
-    if (lightness > 50){
-        content.style.color = "#333";
-        github.style.color = "333";
-    } else if (lightness <= 50){
-        content.style.color = "#fff";
-        github.style.color = "fff";
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
     }
+  
+    return array;
 }
