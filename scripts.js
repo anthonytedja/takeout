@@ -21,7 +21,7 @@ const fastfoodlist = ["McDonalds", "Philthy Phillys", "Manousha", "H Mart",
     "Bourbon St Grill", "Firehouse Subs", "Dixie Food Court", "Cora",
     "Jimmy The Greek", "Harveys", "Subway", "Mary Browns", "Sushi Park",
     "Marketplace F&C", "Davs HotSpot", "La Carnita",
-    "Birria Catrina"];
+    "Birria Catrina", "Knockout Chicken"];
 
 const restaurantlist = ["Mihito Poke Bowls", "Poke Guys", "Jinzakaya", "Pho",
     "Younge St Warehouse", "Kelseys", "ManDooHyang", "K Pocha", "Sikgaek",

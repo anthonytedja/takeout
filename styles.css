@@ -231,6 +231,11 @@ button:active {
         zoom: 125%;
     }
 
+    .title {
+        position: relative;
+        bottom: 75px;
+    }
+
     button {
         width: 400px;
         height: 120px;
@@ -239,7 +244,7 @@ button:active {
 
     a {
         position: relative;
-        top: 50px;
+        top: 75px;
         font-size: 70px;
     }
 
