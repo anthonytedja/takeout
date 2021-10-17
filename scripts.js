@@ -6,6 +6,7 @@ var snack = document.getElementById("snack");
 var fastfood = document.getElementById("fastfood");
 var restaurant = document.getElementById("restaurant");
 var button = document.getElementById("order");
+var github = document.getElementById("github");
 
 const snacklist = ["ChungChun Corn Dogs", "Smokes Poutinerie", "Murphys Ice Cream",
     "I <3 Boba", "Real Fruit", "Gong Cha", "Starbucks", "Tims", "McDonalds",
@@ -84,8 +85,9 @@ function changeFontColor(lightness){
 
     if (lightness > 50){
         content.style.color = "#333";
+        github.style.color = "333";
     } else if (lightness <= 50){
         content.style.color = "#fff";
+        github.style.color = "fff";
     }
-
 }

@@ -169,6 +169,11 @@ main {
     top: 50%;
     transform: translateY(-50%);
     color: hsl(1deg, 0%, 20%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 h1.hex-value {
