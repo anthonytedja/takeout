@@ -188,11 +188,6 @@ button:active {
     .main-content {
         text-align: center;
     }
-
-    button {
-        float: none;
-    }
-
 }
 
 /* Display this style when screen-width is lower than 1200px */
@@ -210,7 +205,8 @@ button:active {
     }
 
     button {
-        float: none;
+        width: 350px;
+        height: 150px;
+        font-size: 2em;
     }
-
 }
