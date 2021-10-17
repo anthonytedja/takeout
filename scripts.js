@@ -41,17 +41,18 @@ function generateOrder() {
 
 // Change The Background Color Base On The Random Color Code
 function changeBgColor() {
-
+    // For Muted Colors
     const three = shuffle([(Math.floor(Math.random() * 66) + 190).toString(16).padStart(2, 0), "FF", "BF"]);
 
-    var hexValue = three[0] + three[1] + three[2];
-    var hexCode = hexValue.toUpperCase();
-
-    hex.innerHTML = "#" + hexCode;
+    hex.innerHTML = "#" + number() + number() + number() + number() + number();
 
     // Result Displaying
-    main[0].style.backgroundColor = "#" + hexValue;
+    main[0].style.backgroundColor = "#" + three[0] + three[1] + three[2];
 
+}
+
+function number() {
+    return Math.floor(Math.random() * 10).toString(16);
 }
 
 function shuffle(array) {
