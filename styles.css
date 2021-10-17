@@ -191,9 +191,10 @@ button {
     color: hsl(1deg, 0%, 100%);
     background-color: hsl(1deg, 0%, 20%);
 }
-
-button:hover {
-    background-color: hsl(1deg, 0%, 33%);
+@media (hover: hover){
+    button:hover {
+        background-color: hsl(1deg, 0%, 33%);
+    }
 }
 
 button:active {
