@@ -1,6 +1,6 @@
 # takeout
 
-takout is an applet that randomly generates restaurants at different price ranges.
+takout is a web app that randomly generates restaurants at different price ranges.
 
 ## Preview
 
