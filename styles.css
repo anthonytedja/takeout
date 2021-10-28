@@ -5,7 +5,6 @@
 
 :root {
     /* Font Color */
-    --theme-color: #ccff00;
     --theme-color-light: hsl(1deg, 0%, 20%);
     --fonts-color: #003223;
     --light-theme: #f7fffd;
@@ -116,7 +115,7 @@ input, button, select, textarea {
 
 ::selection {
     color: #fff;
-    background-color: var(--theme-color);
+    background-color: var(--theme-color-light);
 }
 
 
@@ -153,7 +152,6 @@ button {
     font-size: 1.5em;
     font-weight: var(--semi-bold);
     color: var(--fonts-color);
-    background-color: var(--theme-color);
     transition: 300ms;
 }
 
