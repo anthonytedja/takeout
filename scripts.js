@@ -11,7 +11,7 @@ var github = document.getElementById("github");
 const snacklist = ["ChungChun Corn Dogs", "Smokes Poutinerie", "Murphys Ice Cream",
     "I <3 Boba", "Real Fruit", "Gong Cha", "Starbucks", "Tims", "McDonalds",
     "Sugar Marmalade", "Supermoon", "Cocos", "Baskin Robbins", "Chatime",
-    "Hazukido", "Juicy Dumplings"];
+    "Hazukido", "Juicy Dumplings", "Green Grotto"];
 
 const fastfoodlist = ["McDonalds", "Philthy Phillys", "Manousha", "H Mart",
     "Nations Kitchen", "Burger Factory", "Alf Hana", "Ricks Good Eats",
@@ -29,7 +29,7 @@ const restaurantlist = ["Mihito Poke Bowls", "Poke Guys", "Jinzakaya", "Pho",
     "Kinton Ramen", "Social Eatery", "Owl of Minerva", "Chucks Roadhouse",
     "168 Sushi", "Goodfellas", "El Mariachi", "Swiss Chalet", "Iron Chef",
     "Turtle Jacks", "Wind Sushi", "Heart Sushi", "Buk Chang Dong",
-    "Chicken in the Kitchen"];
+    "Chicken in the Kitchen", "Gyu Kaku"];
 
 function generateOrder() {
     snack.textContent = "SNACK : " + snacklist[Math.floor(Math.random() * snacklist.length)].toUpperCase();
