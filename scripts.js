@@ -39,6 +39,8 @@ function generateOrder() {
     changeBgColor();
 }
 
+// Forked from https://codepen.io/tin-fung-hk/pen/jOWXLQj
+
 // Change The Background Color Base On The Random Color Code
 function changeBgColor() {
     // For Muted Colors
